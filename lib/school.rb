@@ -11,7 +11,7 @@ class School
     roster[grade] << student
   end
 
-  def grade(student)
+  def grade(grade)
     roster[grade]
   end
 
