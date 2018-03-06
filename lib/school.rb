@@ -9,6 +9,7 @@ end
 
 def roster
   ROSTER << roster
+end
 
 
 
