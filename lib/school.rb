@@ -20,7 +20,7 @@ class School
     roster each do |grade, student|
       sorted[grade] = students.sort
     end
-    roster
+    sorted
   end
 
 end
