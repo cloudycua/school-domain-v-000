@@ -7,5 +7,5 @@ def initialize(name)
 end
 
 def add_student(student, grade)
-
+  @roster << {grade => student}
 end
