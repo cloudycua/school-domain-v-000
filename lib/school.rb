@@ -7,8 +7,8 @@ class School
   end
 
   def add_student(student, grade)
-    hash[grade] = []
-    hash[grade] << student
+    roster[grade] = []
+    roster[grade] << student
     @roster << hash
   end
 
