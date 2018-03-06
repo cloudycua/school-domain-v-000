@@ -1,11 +1,8 @@
 class School
-  attr_accessor :name, ;roster
-
-NEW = []
+  attr_accessor :name
 
 def initialize(name)
   @name = name
-  NEW << new
 end
 
 
